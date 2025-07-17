@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Ocealgo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Ocealgo</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link active">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cart.html" class="nav-link cart-link">Cart (<span id="cart-count">0</span>)</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Products</h1>
+                <p>Discover our complete range of seaweed-based wet wipes</p>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="container">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.pexels.com/photos/6823564/pexels-photo-6823564.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Ocealgo Wet Wipes">
+                        </div>
+                        <div class="product-info">
+                            <h3>Wet Wipes</h3>
+                            <p>Organic, biodegradable wipes for everyday use. Perfect for quick cleanups and on-the-go freshness.</p>
+                            <div class="price">$12.99</div>
+                            <div class="product-actions">
+                                <a href="product-wet-wipes.html" class="btn-outline">View Details</a>
+                                <button class="btn-primary add-to-cart" data-id="wet-wipes" data-name="Wet Wipes" data-price="12.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.pexels.com/photos/6787202/pexels-photo-6787202.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Ocealgo Baby Wet Wipes">
+                        </div>
+                        <div class="product-info">
+                            <h3>Baby Wet Wipes</h3>
+                            <p>Gentle, safe formula specially designed for baby's delicate skin. Hypoallergenic and alcohol-free.</p>
+                            <div class="price">$14.99</div>
+                            <div class="product-actions">
+                                <a href="product-baby-wipes.html" class="btn-outline">View Details</a>
+                                <button class="btn-primary add-to-cart" data-id="baby-wipes" data-name="Baby Wet Wipes" data-price="14.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ocealgo</h3>
+                    <p>Nature in every wipe — powered by the sea.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Care</h4>
+                    <ul>
+                        <li><a href="#" onclick="return false;">Shipping Info</a></li>
+                        <li><a href="#" onclick="return false;">Returns</a></li>
+                        <li><a href="#" onclick="return false;">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ocealgo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
